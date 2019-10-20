@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: Arial, Helvetica, sans-serif; background-color: #FFFFFF; overflow-x: hidden;}
+#warpCloud {margin-left: 10px; margin-top: 10px;}
+#skyline {height: 50px; width: 50%;}
+#northDallas {top: -30px;}
+button.heyCloud {font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #000000;
+						width: 200px; height: 100px; float: right; margin-top: -20px; margin-right: 30px;
+						border-radius: 20px; position: absolute;}
+#tile1 {margin-top:1800px;}
+.tree {height: 700px; background-image: url(trees.png); background-size: 100%;
+		background-repeat: no-repeat; border: none; color: #000; text-shadow: 1px 1px 0 #fff; top: -20px;}
+.tree0 {height: 800px; background-image: url(trees0.png); background-size: 100%;
+			background-position: top; background-repeat: no-repeat; border: none; color: #000;
+			text-shadow: 1px 1px 0 #fff; margin-top: -100px;}
+.tree1 {height: 700px; background-image: url(trees1.png); background-size: 100%;
+			background-position: top; background-repeat: no-repeat; margin-top: -340px;
+			border: none; color: #000; text-shadow: 1px 1px 0 #fff;}
+.tree2 {height: 700px; background-image: url(trees4.png); background-size: 100%; background-position: top;
+			background-repeat: no-repeat; border: none; color: #000; text-shadow: 1px 1px 0 #fff;}
+.imageborder {position: absolute; height: 50px; border: 2px; width: 100%;}
+.content1 p {margin-left: 10px; margin-right: 10px;}
+.content1 {width: 43%; background: #FFFFFF; height: 1100px; float: left; margin-left: 10px;
+				margin-top: -70px; border-radius: 10px; border: 3px solid #000000;}
+.left1 {width: 30%; height: 700px; float: right; margin-left: 1px; border-radius: 10px; margin-top: -1000px;}
+.left2 {width: 300px; height: 300px; float: right; margin-left: 10px;
+		border: 3px solid #000000; border-radius: 10px; margin-top: 50px;}
+.left3 {width: 679px; height: 450px; float: right; margin-left: 10px;
+		border: 3px solid #000000; border-radius: 10px; margin-top: -225px;}
+.right0 {position: absolute; left: 60%; width:20%; background: #FFFFFF; height: 100px;
+			float: right;	margin-top: -600px; border-radius: 10px;}
+.right1 {width: 30%; background: #FFFFFF; height: 850px; float: left;
+			margin-right: 65px; border-radius: 20px; margin-top: -300px;}
+.right2 {width: 35%; background: #FFFFFF; height: 500px; float: left; margin-left: -18%; margin-top: -3%;
+			border-radius: 10px; border: 12px solid #000000; z-index: 9999; overflow: hidden;}
+.Luke {position: absolute; left: 10px; top: 200px; z-index: 50; border: 8px solid; border-color: #000000;
+			border-radius: 40px; overflow: hidden;}
+#map_canvas {width: 100%; height: 300px;}
+.profile p{margin-left: 14px; font-size: 140%; margin-top: 12px;}
+.profile{position: absolute; background-color: #FFFFFF; margin-left: 2%; width: 10%; height: 40px;
+		z-index: 999; margin-top: -43px; cursor: pointer; overflow: hidden; border-top-right-radius: 20px;
+		border-top-left-radius: 20px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px;
+		border-left-width: 3px; border-top-style: solid; border-right-style: solid; border-bottom-style: none;
+		border-left-style: solid; border-top-color: #000000; border-right-color: #000000; border-bottom-color: #000000;
+		border-left-color: #000000;}
+.profile.click:hover{border: 5px solid #000000;}
+.project p{margin-left: 14px; font-size: 140%; margin-top: 12px;}
+.project{position: absolute; background-color: #FFFFFF; margin-left: 12%; width: 13%; height: 40px;
+			z-index: 999; margin-top: -46px; cursor: pointer; overflow: hidden; border-top-right-radius: 20px;
+			border-top-left-radius: 20px; border: 3px solid #000000;}
+.project.click:hover{border: 5px solid #000000;}
+.blog p{margin-left: 14px; font-size: 140%; margin-top: 12px;}
+.blog{position: absolute; background-color: #FFFFFF; margin-left: 25%; width: 10%; height: 40px;
+		z-index: 999; margin-top: -46px; cursor: pointer; overflow: hidden; border-top-right-radius: 20px;
+		border-top-left-radius: 20px; border: 3px solid #000000;}
+.blog.click:hover{border: 5px solid #000000;}
+
+
+
