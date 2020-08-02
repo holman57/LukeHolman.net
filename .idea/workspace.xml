@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc448a4e-7d1a-4215-8a06-2f4d55244390" name="Default Changelist" comment="Update eagle">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc448a4e-7d1a-4215-8a06-2f4d55244390" name="Default Changelist" comment="Clean Package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596319849637</updated>
       <workItem from="1596319851516" duration="2258000" />
-      <workItem from="1596332177386" duration="1078000" />
+      <workItem from="1596332177386" duration="1389000" />
     </task>
     <task id="LOCAL-00001" summary="Update eagle">
       <created>1596331974745</created>
@@ -62,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596331974745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Clean Package">
+      <created>1596333521723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596333521723</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +87,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update eagle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update eagle" />
+    <MESSAGE value="Clean Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean Package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="386" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596333136517">
@@ -93,10 +99,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="198" y="260" width="1402" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596333254696" />
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596331989884">
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596333565886">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596331989884" />
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596333565886" />
     <state x="800" y="342" width="716" height="715" key="ftp.server.browser" timestamp="1596333192820">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
