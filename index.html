@@ -1,4 +1,5 @@
-<!doctype html><html lang="en"><!--
+<!doctype html>
+<html lang="en"><!--
      ▓
     ▄█                       ▓
    ▄███▄                    ▓██▄
@@ -39,7 +40,8 @@
                                                            ▀█████▄ ▄▄
                                                               ▀███████▌
                                                                 ▐█     ▀
---><head>
+-->
+<head>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>LukeNet</title>
     <meta charset="utf-8">
@@ -187,9 +189,11 @@
 <h3 id="FrontPageEmail">LukeHolman57@gmail.com</h3>
 
 <div id="List">
-<!--     <h2 id="BlogButton" onclick="setIframe(body,'/blog')">&emsp;Blog</h2>
-    <h2 id="MeetisButton" onclick="javascript:location.href='http://www.LukeHolman.net/meetis.php'">&emsp;Meetis</h2> -->
-    <h2 id="BlogButton" onclick="javascript:location.href='https://www.linkedin.com/in/lholman?trk=people-guest_profile-result-card_result-card_full-click'" >&emsp;LinkedIn</h2>
+    <!--     <h2 id="BlogButton" onclick="setIframe(body,'/blog')">&emsp;Blog</h2>
+        <h2 id="MeetisButton" onclick="javascript:location.href='http://www.LukeHolman.net/meetis.php'">&emsp;Meetis</h2> -->
+    <h2 id="BlogButton"
+        onclick="javascript:location.href='https://www.linkedin.com/in/lholman?trk=people-guest_profile-result-card_result-card_full-click'">
+        &emsp;LinkedIn</h2>
     <h2 id="MeetisButton" onclick="javascript:location.href='https://github.com/holman57'">&emsp;GitHub</h2>
 </div>
 
@@ -208,9 +212,9 @@
         $("#FrontPageName").animate({opacity: '0'}, 6000);
         $("#FrontPageEmail").animate({opacity: '0'}, 6000);
         $("#BlogButton").animate({opacity: '0'}, 1000,
-                function () {
-                    // Animation complete
-                });
+            function () {
+                // Animation complete
+            });
         $("#MeetisButton").animate({opacity: '0'}, 3000);
 
         element.appendChild(theIframe);
@@ -241,6 +245,7 @@
         gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
     }
 
+
 </script>
 
 <!-- ------ fragment shader a.k.a. pixel shader ----------------- -->
@@ -250,6 +255,7 @@
         float intensity = pow( 0.7 - dot( vNormal, vec3( 0.0, 0.0, 1.0 ) ), 4.0 );
         gl_FragColor = vec4( 1.0, 1.0, 1.0, 1.0 ) * intensity;
     }
+
 
 </script>
 <!-- ------------------------------------------------------------ -->
@@ -300,7 +306,7 @@
         // CONTROLS
         controls = new THREE.TrackballControls(camera);
         if (!FreeMode)
-             controls.enabled = false;
+            controls.enabled = false;
         // access CONTROLS*
 
         //////////////
@@ -360,7 +366,6 @@
         Moon.position.y = -5000;
         Moon.position.x = 25000;
         Moon.position.z = 15000;
-
     }
 
     function animate() {
@@ -377,15 +382,15 @@
         // CONTROLS
         if (keyboard.pressed(" ")) {
             if (!Delay)
-                if (!FreeMode){
-                    $("#List").css( "display", "none" );
+                if (!FreeMode) {
+                    $("#List").css("display", "none");
                     Delay = true;
                     var timeoutID = window.setTimeout(DelayMe, 500);
                     controls.enable = true;
                     FreeMode = true;
                     controls = new THREE.TrackballControls(camera);
                 } else {
-                    $("#List").css( "display", "block" );
+                    $("#List").css("display", "block");
                     Delay = true;
                     var timeoutID = window.setTimeout(DelayMe, 500);
                     controls.enable = false;
@@ -393,7 +398,6 @@
                 }
         }
         // access CONTROLS*
-
     }
 
     function render() {
@@ -403,8 +407,8 @@
         Earth.rotation.y -= 0.0002;
 
         var x = camera.position.x,
-                y = camera.position.y,
-                z = camera.position.z;
+            y = camera.position.y,
+            z = camera.position.z;
 
         if (!FreeMode) {
             camera.position.x = x * Math.cos(rotSpeed) + y * Math.sin(rotSpeed);
@@ -414,7 +418,7 @@
         camera.lookAt(scene.position);
     }
 
-    function DelayMe(){
+    function DelayMe() {
         Delay = false;
     }
 </script>
