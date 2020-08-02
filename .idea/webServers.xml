@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7e276bd7-208e-402b-b89c-8fa371a24a40" name="ftp.lukeholman.net">
-        <fileTransfer port="21">
+      <webServer id="7e276bd7-208e-402b-b89c-8fa371a24a40" name="ftp.lukeholman.net" url="http://ftp.lukeholman.net">
+        <fileTransfer rootFolder="/public_html" host="ftp.lukeholman.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

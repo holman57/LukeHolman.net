@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="ftp.lukeholman.net" remoteFilesAllowedToDisappearOnAutoupload="false" />
+  <component name="PublishConfigData" serverName="ftp.lukeholman.net" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ftp.lukeholman.net">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/.htpasswds" />
+            <excludedPath path="/assets" />
+            <excludedPath local="true" path="$PROJECT_DIR$/assets" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Canvas" />
+            <excludedPath path="/Canvas" />
+            <excludedPath path="/cgi-bin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cgi-bin" />
+            <excludedPath path="/css" />
+            <excludedPath local="true" path="$PROJECT_DIR$/css" />
+            <excludedPath path="/EDUbackup" />
+            <excludedPath local="true" path="$PROJECT_DIR$/EDUbackup" />
+            <excludedPath path="/css" />
+            <excludedPath local="true" path="$PROJECT_DIR$/css" />
+            <excludedPath path="/datasets" />
+            <excludedPath local="true" path="$PROJECT_DIR$/EDUbackup" />
+            <excludedPath path="/dfwsharpkeys" />
+            <excludedPath path="/Dta" />
+            <excludedPath path="/Dtadvancements" />
+            <excludedPath path="/EDUbackup" />
+            <excludedPath path="/meetis" />
+            <excludedPath path="/remote_images" />
+            <excludedPath local="true" path="$PROJECT_DIR$/meetis" />
+            <excludedPath path="/road1" />
+            <excludedPath path="/scripts" />
+            <excludedPath local="true" path="$PROJECT_DIR$/scripts" />
+            <excludedPath path="/TextFiles" />
+            <excludedPath path="/three.js" />
+            <excludedPath path="/tudoor" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
 </project>
