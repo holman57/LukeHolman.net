@@ -12,12 +12,12 @@
 ▄██████▄   ▀███████████▄   ▀██████▌  ▀██████▄
 ██████████▄  ▀████████████▄  ▀███████▄ ▀██████▄
  ▀███████████▄  ▀███████████▄   ▀██████▄ ▀██████▄
-    ▀███████████▄  ▀███████████   ▀██████▄ ▀██████▄
+    ▀███████████▄  ▀██████████▄   ▀██████▄ ▀██████▄
    █▄  ▀██████████▄   ▀██████████▄  ▀██████▄ ░██████▄
   ████▄   ▀██████████▄  ▀██████████▄   ▀██████ ░██████▄
  ████████▄▄  ▀██████████▄  ▀██████████▄  ▀██████▄ ▀█████▄
  ▀███████████▄  ▀▀█████████▄  ▀█████████▄  ▀██████▄ ▀█████▄
-    ▀▀██████████▄▄  ▀█████████▄ ▀█████████▄   ▀█████▄▄██████
+    ▀▀██████████▄▄  ▀█████████▄ ▀█████████▄  ▀▀█████▄▄██████
         ▀██████████▄▄  ▀█████████▄ ▀█████████▄  ▀████████████▄
             ▀██████████▄  ▀█████████▄ ▀████████▄  ▀███████████▌
                ▀▀█████████▄  ▀████████▄ ▀████████▄   ▀█████████▌
@@ -28,9 +28,9 @@
                                   ▀████████▄▓████████████████▄ ▀██
                                      ▀▀███████████████████████▌  █
                                          ▀▀███████████████████▓▓ ▄
-                 ▓▓▓███████████████████████████████████████████▓▓▐▓▄
+                 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████████▓▓▐▓▄
                      ▀██████████████████████████████████████████▓▓ ▓███
-                        ▄▄▄▄▄▄▄▄▄████████████████████████████████▓░▐█████▄
+                        ▄▄▄▄▄▄▄██████████████████████████████████▓░▐█████▄
                           ███████████▀▀▀▀█████████████████████████▓░███████▄,
                                  ▄▄▄▄█████████████████████████████▓░██████▓██▄
                               ▀██████████▀▀▀     ▀▀███████████████▓░███████░▀▌
@@ -176,10 +176,6 @@
         }
 
     </style>
-    <script>
-        var BlogActive = false;
-
-    </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
@@ -199,8 +195,6 @@
 
 <script>
     function setIframe(element, location) {
-
-        BlogActive = true;
         var theIframe = document.createElement("iframe");
         theIframe.setAttribute('id', 'WordpressBlog');
         theIframe.setAttribute('allowtransparency', 'true');
@@ -216,18 +210,13 @@
                 // Animation complete
             });
         $("#MeetisButton").animate({opacity: '0'}, 3000);
-
         element.appendChild(theIframe);
-
         function ResizeWordpressWindow() {
             document.getElementById("WordpressBlog").width = $(window).width();
             document.getElementById("WordpressBlog").height = $(window).height();
         }
-
         var StartInterface = setInterval(ResizeWordpressWindow, 1000);
-
     }
-
 </script>
 
 <script src="js/three.js"></script>
@@ -244,8 +233,6 @@
         vNormal = normalize( normalMatrix * normal );
         gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
     }
-
-
 </script>
 
 <!-- ------ fragment shader a.k.a. pixel shader ----------------- -->
@@ -255,8 +242,6 @@
         float intensity = pow( 0.7 - dot( vNormal, vec3( 0.0, 0.0, 1.0 ) ), 4.0 );
         gl_FragColor = vec4( 1.0, 1.0, 1.0, 1.0 ) * intensity;
     }
-
-
 </script>
 <!-- ------------------------------------------------------------ -->
 
@@ -317,7 +302,6 @@
         var directions = ["xpos", "xneg", "ypos", "yneg", "zpos", "zneg"];
         var imageSuffix = ".png";
         var skyGeometry = new THREE.CubeGeometry(100000, 100000, 100000);
-
         var materialArray = [];
         for (var i = 0; i < 6; i++)
             materialArray.push(new THREE.MeshBasicMaterial({
@@ -333,7 +317,6 @@
         ////////////////////////
 
         var sphereGeo1 = new THREE.SphereGeometry(40500, 64, 64);
-
         var EarthTexture = THREE.ImageUtils.loadTexture('images/earth-day.jpg');
         var EarthMaterial = new THREE.MeshBasicMaterial({map: EarthTexture});
         Earth = new THREE.Mesh(sphereGeo1, EarthMaterial);
@@ -344,7 +327,6 @@
 
         var customTexture = THREE.ImageUtils.loadTexture('images/earth-clouds.png');
         var customMaterial = new THREE.MeshBasicMaterial({map: customTexture, transparent: true, color: 0xFFFFFF});
-
         var AtmosphereGeometry = new THREE.SphereGeometry(44000, 64, 64);
         Atmosphere = new THREE.Mesh(AtmosphereGeometry, customMaterial);
         Atmosphere.position.y = 10000;
@@ -357,11 +339,9 @@
         ////////////
 
         var sphereGeo2 = new THREE.SphereGeometry(5000, 64, 128);
-
         var MoonTexture = THREE.ImageUtils.loadTexture('images/moon.jpg');
         var MoonMaterial = new THREE.MeshBasicMaterial({map: MoonTexture});
         Moon = new THREE.Mesh(sphereGeo2, MoonMaterial);
-
         scene.add(Moon);
         Moon.position.y = -5000;
         Moon.position.x = 25000;
@@ -421,6 +401,4 @@
     function DelayMe() {
         Delay = false;
     }
-</script>
-</body>
-</html>
+</script></body></html>

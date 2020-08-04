@@ -55,7 +55,8 @@
       <updated>1596319849637</updated>
       <workItem from="1596319851516" duration="2258000" />
       <workItem from="1596332177386" duration="1529000" />
-      <workItem from="1596333722085" duration="788000" />
+      <workItem from="1596333722085" duration="2119000" />
+      <workItem from="1596485576585" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="Update eagle">
       <created>1596331974745</created>
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596333658052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Normalize">
+      <created>1596405305370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596405305370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,10 +127,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="198" y="260" width="1402" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596333703045" />
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596333662331">
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596405310265">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596333662331" />
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596405310265" />
     <state x="800" y="342" width="716" height="715" key="ftp.server.browser" timestamp="1596333192820">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
