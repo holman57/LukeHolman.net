@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc448a4e-7d1a-4215-8a06-2f4d55244390" name="Default Changelist" comment="Normalize">
+    <list default="true" id="cc448a4e-7d1a-4215-8a06-2f4d55244390" name="Default Changelist" comment="Removed blog variable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
       <workItem from="1596332177386" duration="1529000" />
       <workItem from="1596333722085" duration="2119000" />
       <workItem from="1596485576585" duration="98000" />
+      <workItem from="1596506095067" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="Update eagle">
       <created>1596331974745</created>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596405305370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed blog variable">
+      <created>1596506276165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596506276165</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +115,8 @@
     <MESSAGE value="Update eagle" />
     <MESSAGE value="Clean Package" />
     <MESSAGE value="Normalize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Normalize" />
+    <MESSAGE value="Removed blog variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed blog variable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="680" y="339" width="662" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596333598160">
@@ -127,10 +135,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="198" y="260" width="1402" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596333703045" />
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596405310265">
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596506280191">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596405310265" />
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596506280191" />
     <state x="800" y="342" width="716" height="715" key="ftp.server.browser" timestamp="1596333192820">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
