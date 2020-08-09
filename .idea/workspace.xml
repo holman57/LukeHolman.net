@@ -57,6 +57,8 @@
       <workItem from="1596333722085" duration="2119000" />
       <workItem from="1596485576585" duration="98000" />
       <workItem from="1596506095067" duration="706000" />
+      <workItem from="1596829506146" duration="110000" />
+      <workItem from="1596847342920" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="Update eagle">
       <created>1596331974745</created>
@@ -93,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596506276165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modify spacing">
+      <created>1596829599258</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596829599258</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +125,8 @@
     <MESSAGE value="Clean Package" />
     <MESSAGE value="Normalize" />
     <MESSAGE value="Removed blog variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed blog variable" />
+    <MESSAGE value="Modify spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify spacing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="680" y="339" width="662" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596333598160">
@@ -135,10 +145,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="198" y="260" width="1402" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596333703045" />
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596506280191">
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596829603269">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596506280191" />
+    <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596829603269" />
     <state x="800" y="342" width="716" height="715" key="ftp.server.browser" timestamp="1596333192820">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
