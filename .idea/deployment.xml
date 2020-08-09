@@ -15,12 +15,8 @@
             <excludedPath path="/Canvas" />
             <excludedPath path="/cgi-bin" />
             <excludedPath local="true" path="$PROJECT_DIR$/cgi-bin" />
-            <excludedPath path="/css" />
-            <excludedPath local="true" path="$PROJECT_DIR$/css" />
             <excludedPath path="/EDUbackup" />
             <excludedPath local="true" path="$PROJECT_DIR$/EDUbackup" />
-            <excludedPath path="/css" />
-            <excludedPath local="true" path="$PROJECT_DIR$/css" />
             <excludedPath path="/datasets" />
             <excludedPath local="true" path="$PROJECT_DIR$/EDUbackup" />
             <excludedPath path="/dfwsharpkeys" />

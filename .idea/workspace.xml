@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc448a4e-7d1a-4215-8a06-2f4d55244390" name="Default Changelist" comment="Removed blog variable">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/ALPHA.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery.scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/perfect-scrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LukeHolman.net.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LukeHolman.net.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +44,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fW36xX0qqHEUgUKZ91X3uEZuH2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,6 +88,7 @@
       <workItem from="1596506095067" duration="706000" />
       <workItem from="1596829506146" duration="110000" />
       <workItem from="1596847342920" duration="601000" />
+      <workItem from="1596947965491" duration="2727000" />
     </task>
     <task id="LOCAL-00001" summary="Update eagle">
       <created>1596331974745</created>
@@ -102,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596829599258</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update Workspace">
+      <created>1596947991897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596947991897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,12 +158,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update eagle" />
     <MESSAGE value="Clean Package" />
     <MESSAGE value="Normalize" />
     <MESSAGE value="Removed blog variable" />
     <MESSAGE value="Modify spacing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify spacing" />
+    <MESSAGE value="Update Workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Workspace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="680" y="339" width="662" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596333598160">
@@ -137,21 +176,21 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="749" y="286" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596333617274" />
-    <state x="682" y="386" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596333136517">
+    <state x="682" y="386" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596948250779">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="682" y="386" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1596333136517" />
-    <state x="198" y="260" width="1402" height="737" key="SettingsEditor" timestamp="1596333703045">
+    <state x="682" y="386" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1596948250779" />
+    <state x="198" y="260" width="1402" height="737" key="SettingsEditor" timestamp="1596948167986">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="198" y="260" width="1402" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596333703045" />
+    <state x="198" y="260" width="1402" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596948167986" />
     <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596829603269">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="611" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596829603269" />
-    <state x="800" y="342" width="716" height="715" key="ftp.server.browser" timestamp="1596333192820">
+    <state x="800" y="342" width="716" height="715" key="ftp.server.browser" timestamp="1596948129634">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="800" y="342" width="716" height="715" key="ftp.server.browser/0.27.1920.1053@0.27.1920.1053" timestamp="1596333192820" />
+    <state x="800" y="342" width="716" height="715" key="ftp.server.browser/0.27.1920.1053@0.27.1920.1053" timestamp="1596948129634" />
   </component>
 </project>
